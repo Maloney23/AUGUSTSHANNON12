@@ -117,7 +117,9 @@ public class Main {
 
         if (registrationResult.equals("User has been registered successfully.")) {
             System.out.println("\n=== Login ===");
+            System.out.println();
             login.loginUser(scanner);
+
             System.out.println(login.returnLoginStatus());
         }
 
